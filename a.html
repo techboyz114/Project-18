@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Combined Bootstrap Page</title>
+    <title>Sam's Webpage with Pagination</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-    <!-- Heading -->
-    <h1 style="color:orange;text-align:center;">Codingal</h1>
+    <!-- Main Title -->
+    <h1 style="color:orange;text-align:center;">Sam's Favorite Pages</h1>
 
     <div class="container mt-4">
 
+        <!-- Story Section -->
+        <div class="alert alert-info">
+            <h4>Story of the Project:</h4>
+            <p>
+                Now Sam is done with his hobbies section and is loving that so much.
+                So he wants to develop another webpage where he can use the effect of changing pages.
+                Now you need to help him to create the pagination in that webpage.
+            </p>
+        </div>
+
+        <!-- Hobbies Section -->
+        <h3>Sam's Hobbies</h3>
+        <p>
+            Sam loves to spend his free time doing creative and fun activities.
+            His favorite hobbies are:
+        </p>
+        <ul>
+            <li><b>Painting:</b> He enjoys creating colorful drawings of nature, animals, and cartoons.</li>
+            <li><b>Reading Books:</b> Sam reads storybooks about adventure, space, and superheroes.</li>
+            <li><b>Playing Football:</b> He plays football with his friends every evening in the playground.</li>
+            <li><b>Coding:</b> Sam recently started learning coding and loves making simple webpages using HTML and
+                Bootstrap.</li>
+        </ul>
+
         <!-- Card Section -->
-        <div class="card" style="width:18rem;">
-            <img class="card-img-top" src="Mota Bhai.jpg" alt="MR. Round Man">
+        <div class="card mt-4" style="width:20rem;">
+            <img class="card-img-top" src="Mota Bhai.jpg" alt="Webpage Preview">
             <div class="card-body">
-                <h5 class="card-title">MR. Round</h5>
-                <p class="card-text">He is a most wanted criminal in India.</p>
-                <a href="#" class="btn btn-primary">See Profile</a>
+                <h5 class="card-title">Sam's Webpage</h5>
+                <p class="card-text">Sam is exploring different webpages using Bootstrap pagination effects.</p>
+                <a href="#" class="btn btn-primary">Explore More</a>
             </div>
         </div>
 
         <hr>
 
         <!-- Spinner Section -->
-        <h2>Spinners</h2>
-        <p>To create a spinner/loader, use the <code>.spinner-border</code> class:</p>
+        <h3>Loading More Pages...</h3>
+        <p>This spinner shows the loading effect when Sam switches pages.</p>
         <div class="spinner-border"></div>
 
         <hr>
 
         <!-- Pagination Section -->
-        <h2>Cricket</h2>
-        <p>Fall in love with cricket.</p>
+        <h3>Pagination</h3>
+        <p>Use the pagination below to help Sam move between different sections of his webpage.</p>
         <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Page 1 - Hobbies</a></li>
+            <li class="page-item"><a class="page-link" href="#">Page 2 - Sports</a></li>
+            <li class="page-item"><a class="page-link" href="#">Page 3 - Projects</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
         </ul>
 
     </div>
 
 </body>
+
 </html>
